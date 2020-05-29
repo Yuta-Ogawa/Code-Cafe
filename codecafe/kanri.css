@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background-color: black;
+}
+
+header h1 {
+  color: wheat;
+  text-align: center;
+  margin: 0;
+}
+
+.form {
+  text-align: center;
+}
+.care {
+  background-color: red;
+  font-weight: bold;
+  color: white;
+  border-radius: 2px;
+  font-size: 12px;
+  margin-left: 5px;
+  padding: 2px;
+}
+.kome {
+  color: red;
+}

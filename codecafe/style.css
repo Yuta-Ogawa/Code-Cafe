@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  opacity: 0.4;
+}
+.title {
+  position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  text-shadow: 5px 5px 0px #eee, 7px 7px 0px #707070;
+  font-size: 80px;
+}
+.sub-title {
+  position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+}
+.required {
+  background-color: red;
+  font-weight: bold;
+  color: white;
+  border-radius: 2px;
+  font-size: 12px;
+  margin-left: 5px;
+  padding: 2px;
+}
+
+.form {
+  text-align: center;
+}
+
+
+li {
+  list-style: none;
+
+}
+
+.error {
+  color: red;
+}
+
+.corp {
+  text-align: center;
+  background-color: darkgrey;
+}
+
+@media screen and (max-width: 900px) {
+  
+  .title {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  text-shadow: 5px 5px 0px #eee, 7px 7px 0px #707070;
+  font-size: 60px;
+  }
+  .sub-title {
+    position: absolute;
+      top: 30%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+  }
+  img {
+    width: 100%;
+    opacity: 0.4;
+    text-align: center;
+  }
+}
+
+
+@media screen and (max-width: 700px) {
+  
+  .title {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  text-shadow: 2px 2px 0px #eee, 4px 4px 0px #707070;
+  font-size: 35px;
+  }
+  .sub-title {
+    position: absolute;
+      top: 15%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+    font-size: 13px;
+    color: black;
+    font-weight: bold;
+  }
+  img {
+    width: 100%;
+    opacity: 0.4;
+    text-align: center;
+  }
+}
